@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C#\\Threading\\Section 2\\ReaderWriterLock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F996C531-1317-4D25-8D25-91B58690D676}|ReaderWriterLock.csproj|d:\\projects\\c#\\threading\\section 2\\readerwriterlock\\globalconfigurationcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F996C531-1317-4D25-8D25-91B58690D676}|ReaderWriterLock.csproj|solutionrelative:globalconfigurationcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F996C531-1317-4D25-8D25-91B58690D676}|ReaderWriterLock.csproj|d:\\projects\\c#\\threading\\section 2\\readerwriterlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F996C531-1317-4D25-8D25-91B58690D676}|ReaderWriterLock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalConfigurationCache.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Threading\\Section 2\\ReaderWriterLock\\GlobalConfigurationCache.cs",
+              "RelativeDocumentMoniker": "GlobalConfigurationCache.cs",
+              "ToolTip": "D:\\Projects\\C#\\Threading\\Section 2\\ReaderWriterLock\\GlobalConfigurationCache.cs",
+              "RelativeToolTip": "GlobalConfigurationCache.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T17:25:58.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Threading\\Section 2\\ReaderWriterLock\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\C#\\Threading\\Section 2\\ReaderWriterLock\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T17:25:37.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

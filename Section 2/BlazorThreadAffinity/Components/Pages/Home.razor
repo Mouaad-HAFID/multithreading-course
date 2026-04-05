@@ -1,0 +1,36 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<br/>
+
+<button type="button" class="btn btn-primary" @onclick="DisplayTime">Display Time</button>
+
+<br />
+
+<span>@currentTime</span>
+
+@code{
+    string currentTime = string.Empty;
+
+    void DisplayTime()
+    {
+        Thread thread = new(() =>
+        {
+            Thread.Sleep(500);
+            currentTime = DateTime.UtcNow.ToString();
+            /// If we attempt to notify the component of state changes through a thread other than the UI
+            /// we will run into thread affinity problems. Meaning we're trying to access a resource within
+            /// a thread other than the one where it was created.
+            /// In order to fix the issue we must synchronize the two threads' context.
+            /// In order to do so we use the Invoke or InvokeAsync methods
+            base.InvokeAsync(() => StateHasChanged());
+        });
+
+        thread.Start();
+    }
+}
